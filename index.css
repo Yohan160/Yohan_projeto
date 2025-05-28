@@ -1,4 +1,5 @@
 * {
+    margin: 0px;
     background-image: url("img/kkk.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -7,9 +8,12 @@
 }
 
 .quadrado{
-    width: 100px;
-    height: 100px;
-    background-color: black;
+    width: 550px;
+    height: 380px;
+    background-color:mediumpurple; 
+    position: absolute; right: 1300px;
+    position: absolute; top: 450px;
+    border-radius: 10px;
 }
 
 
@@ -23,8 +27,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1px 20px;
-    border-width: 1000px;
+    padding: 5px 20px;
 }
 
 
@@ -33,7 +36,7 @@ nav{
     display: flex;
     align-items: center;
     gap: 30px;
-    height: 50px;
+    height: 70px;
     justify-content: center;
     background:darkviolet
 }
@@ -72,6 +75,14 @@ h1{
     color:ghostwhite;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 1px;
+    padding: 70px;
+    font-size: 70px;
 }
 
+.Texto{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 60px;
+}
